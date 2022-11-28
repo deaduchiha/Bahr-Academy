@@ -1,0 +1,245 @@
+.my-s-input {
+  font-family: est !important;
+  font-size: 14px !important;
+  color: #0d5e48e3 !important;
+  padding-right: 5px;
+  border-radius: 3px;
+  display: block;
+  float: left;
+  border-radius: 4px;
+  border-bottom-color: transparent !important;
+  width: 300px;
+}
+
+input.my-s-input-place::placeholder,
+input.my-s-input-place::placeholder {
+  color: #0d5e48be !important;
+  opacity: 1;
+}
+
+input.my-s-input-place::-webkit-input-placeholder,
+input.my-s-input-place:-moz-placeholder,
+input.my-s-input-place::-moz-placeholder,
+input.my-s-input-place:-ms-input-placeholder,
+input.my-s-input-place::-webkit-input-placeholder,
+input.my-s-input-place:-moz-placeholder,
+input.my-s-input-place::-moz-placeholder,
+input.my-s-input-place:-ms-input-placeholder {
+  color: #0d5e48be !important;
+}
+
+input.my-s-input-place:-moz-placeholder,
+input.my-s-input-place::-moz-placeholder {
+  opacity: 1;
+}
+
+.main-title {
+  padding: 2px 3px 12px;
+  color: #088568;
+  border-bottom: 2px solid #08856883;
+  border-top: 1px solid transparent;
+  font-family: est;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.my-card {
+  border: 0 none;
+  margin-top: 18px;
+  background-color: #f1f1f1;
+  height: auto !important;
+  overflow: hidden;
+  border-radius: 2px !important;
+}
+.extra-top {
+  margin-top: 40px !important;
+}
+.my-img-body {
+  overflow: hidden;
+  position: relative !important;
+}
+.my-img-body:hover > .card-link {
+  background-color: #459e889d;
+  color: #fff;
+}
+.card-link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100% !important;
+  height: 100% !important;
+  transition: 0.4s;
+  text-align: center;
+  color: transparent;
+  text-decoration: none;
+  font-family: est;
+  line-height: 120px;
+  font-size: 16px;
+}
+
+.my-img-fluid {
+  width: 100% !important;
+  height: 100% !important;
+
+  height: 120px !important;
+}
+.my-card-body {
+  padding-bottom: 0px !important;
+  padding-top: 7px !important;
+}
+.my-card-text {
+  font-family: lale;
+  color: #155746ce;
+  font-size: 17px;
+}
+.my-teacher {
+  font-family: est;
+  margin-top: 2px;
+  color: #717776ee;
+  font-size: 15px;
+}
+.my-price {
+  font-family: est;
+  font-size: 14px;
+  color: #1bd6ab;
+  padding: 8px;
+}
+
+.my-ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: est;
+  background-color: #f1f1f1;
+  border-radius: 2px !important;
+}
+.my-li {
+  padding: 25px 15px;
+
+  font-family: lale;
+  color: #155746ce;
+  font-size: 17px;
+}
+.my-span {
+  margin-right: 12px;
+  font-family: est;
+  color: #5b7a72ee;
+  font-size: 17px;
+}
+.my-bt {
+  font-family: est;
+  float: left;
+  font-size: 15px;
+}
+.my-link {
+  width: 100% !important;
+  height: 100% !important;
+  font-family: est;
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none !important;
+}
+.my-link:hover {
+  color: #fff;
+}
+
+.not-enough {
+  font-family: est;
+  font-size: 19px;
+  color: #155746ce;
+}
+
+@media (max-width: 1399.98px) {
+  .my-span {
+    font-size: 17px;
+  }
+  .my-s-input {
+    width: 250px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .my-span {
+    font-size: 15px;
+  }
+  .my-li {
+    padding: 25px 10px;
+
+    font-size: 15px;
+  }
+  .my-card-text {
+    font-size: 17.5px;
+  }
+  .my-img-fluid {
+    height: 120px !important;
+  }
+  .my-card-body {
+    padding-bottom: 0px !important;
+    padding-top: 7px !important;
+  }
+  .card-link {
+    line-height: 120px;
+  }
+  .my-s-input {
+    width: 220px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .my-s-input {
+    width: 280px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .card-link {
+    display: block !important;
+    margin-right: 50%;
+    transform: translateX(50%);
+    width: 210px !important;
+    line-height: 140px;
+    border-radius: 9px;
+  }
+  .my-span {
+    font-size: 18px;
+  }
+  .my-li {
+    padding: 25px 20px;
+
+    font-size: 19px;
+  }
+  .main-title {
+    margin-top: 17px;
+  }
+
+  .my-card {
+    padding-top: 15px !important;
+  }
+  .my-img-body {
+    overflow: hidden;
+  }
+  .my-img-fluid {
+    display: block;
+    width: 210px !important;
+    height: 140px !important;
+    border-radius: 10px;
+    margin: auto;
+  }
+  .my-s-input {
+    width: 210px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .my-span {
+    font-size: 15px;
+  }
+  .my-li {
+    padding: 25px 10px;
+
+    font-size: 15px;
+  }
+  .my-s-input {
+    width: 40%;
+  }
+}

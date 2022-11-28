@@ -1,0 +1,32 @@
+{
+  "Students": [
+    {
+      "id": 1,
+      "fullName": "سهیل جعفری",
+      "firstName": "سهیل",
+      "lastName": "جعفری",
+      "userName": "soheilJafari74",
+      "passWord": "12345678aA",
+      "image": "",
+      "email": "soheil_jfri345@gmail.com",
+      "idNumber": 2080438714,
+      "phoneNumber": "09334567412",
+      "birthDate": "1374/04/01",
+      "type": "student"
+    },
+    {
+      "id": 2,
+      "fullName": "عدنان رضایی",
+      "firstName": "عدنان",
+      "lastName": "رضایی",
+      "userName": "SIrAdnaAn34",
+      "passWord": "65465464Bb",
+      "image": "",
+      "email": "adnan_rezaii34@gmail.com",
+      "idNumber": 4564321345,
+      "phoneNumber": "09122346529",
+      "birthDate": "1384/11/06",
+      "type": "student"
+    }
+  ]
+}

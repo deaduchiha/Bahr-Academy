@@ -1,0 +1,127 @@
+.main-content {
+  background-color: #e9e9e9c9;
+  min-height: 760px !important;
+  font-family: est;
+  border: 1px solid transparent;
+}
+
+.news-link {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: inline-block;
+  color: #004458;
+  text-decoration: none;
+  border: 2px solid transparent;
+  border-bottom-color: #00435870;
+  font-family: lale;
+  font-size: 25px;
+  padding: 10px 0;
+}
+.news-link:hover {
+  color: #004458;
+}
+
+.my-card {
+  border: 0 none;
+  margin-top: 18px;
+  background-color: #fff;
+  height: auto !important;
+  overflow: hidden;
+  border-radius: 2px !important;
+}
+.my-img-body {
+  overflow: hidden;
+  position: relative !important;
+}
+.my-img-body:hover > .card-link {
+  background-color: #459e889d;
+  color: #fff;
+}
+.card-link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100% !important;
+  height: 100% !important;
+  transition: 0.4s;
+  text-align: center;
+  color: transparent;
+  text-decoration: none;
+  font-family: est;
+  line-height: 120px;
+  font-size: 16px;
+}
+
+.my-img-fluid {
+  width: 100% !important;
+  height: 100% !important;
+
+  height: 120px !important;
+}
+.my-card-body {
+  padding-bottom: 0px !important;
+  padding-top: 7px !important;
+}
+.my-card-text {
+  font-family: lale;
+  color: #155746ce;
+  font-size: 17px;
+  height: 52px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.my-teacher {
+  font-family: est;
+  margin-top: 2px;
+  color: #717776ee;
+  font-size: 15px;
+}
+.my-price {
+  font-family: est;
+  font-size: 14px;
+  color: #1bd6ab;
+  padding: 8px;
+}
+
+@media (max-width: 1399.98px) {
+  .my-card-text {
+    font-size: 14px;
+  }
+  .my-teacher {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+}
+
+@media (max-width: 991.98px) {
+  .my-card-text {
+    font-size: 13px;
+  }
+  .my-teacher {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 767.98px) {
+}
+
+@media (max-width: 575.98px) {
+  .my-img-fluid {
+    display: block;
+    width: 200px !important;
+    margin: auto;
+    border-radius: 3px;
+  }
+  .card-link {
+    display: block !important;
+    margin-right: 50%;
+    transform: translateX(50%);
+    width: 200px !important;
+  }
+  .my-img-body {
+    margin-top: 20px;
+  }
+}

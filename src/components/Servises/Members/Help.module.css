@@ -1,0 +1,49 @@
+.cardHelp {
+  min-width: 500px;
+  max-width: 500px;
+  min-height: 100px;
+  padding: 3px 0 3px 0;
+  background: #e9e9e9c9;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.icon svg {
+  font-size: 3.2rem;
+  color: #0a5f79;
+}
+.title {
+  width: 100%;
+  font-size: 15px;
+  color: #0a5f79;
+}
+.des {
+  color: #6d6d6d;
+  font-size: 14px;
+}
+.helpTitle {
+  color: #004458;
+  text-align: center;
+  font-family: lale;
+}
+
+@media only screen and (max-width: 900px) {
+  .helpTitle {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 767.5px) {
+  .cardHelp {
+    text-align: center;
+    max-width: 350px;
+    min-width: 350px;
+  }
+}
+
+@media only screen and (max-width: 509px) {
+  .cardHelp {
+    max-width: 210px;
+    min-width: 210px;
+  }
+}

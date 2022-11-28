@@ -1,0 +1,93 @@
+.map {
+  height: 60vh;
+}
+.contain {
+  background: url("../../../assets/images/Landing/map.png") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.mapimg {
+  border: 1px solid transparent;
+  background: rgba(0, 0, 0, 0.521);
+  width: 100%;
+  height: 100%;
+}
+
+.information {
+  margin: 50px;
+  margin-right: 155px;
+  background: #004458;
+  border-radius: 10px;
+  width: 35%;
+  height: 78%;
+}
+.mapItem {
+  flex: 50%;
+  text-align: center;
+  color: #fff;
+}
+.icon {
+  color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  height: fit-content;
+  width: fit-content;
+  padding: 10px;
+  margin: 10px auto;
+}
+.icon:hover {
+  background: rgba(204, 204, 204, 0.637);
+}
+
+.icon svg {
+  font-size: 35px;
+}
+.title {
+  color: #fff;
+  font-family: est;
+  font-size: 14px;
+}
+.des {
+  color: #fff;
+  font-family: est;
+  font-size: 14px;
+  width: 98%;
+}
+
+@media only screen and (max-width: 1065px) {
+  .map {
+    position: relative;
+    height: 45vh;
+  }
+  .information {
+    position: absolute;
+    margin: 0 auto;
+    bottom: 0px;
+    border-radius: 0;
+    width: 99.9%;
+    height: max-content;
+    display: flex;
+    background: rgb(0, 43, 55) none repeat scroll 0% 0%;
+    padding: 5px;
+  }
+  .title {
+    display: none;
+  }
+  .des {
+    font-size: small;
+  }
+
+  .hide {
+    display: none;
+  }
+  .icon {
+    display: none;
+  }
+  .show {
+  }
+}
+
+@media only screen and (max-width: 500px) {
+}

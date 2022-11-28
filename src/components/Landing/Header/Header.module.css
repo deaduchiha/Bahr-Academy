@@ -1,0 +1,61 @@
+.header {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+.header-slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: -10;
+}
+
+.header-bot-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: -15;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../../../assets/images/Landing/HeaderBack1.png");
+}
+
+.my-crs-img-1 {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*background-image: url("../../../assets/images/StudentPanel/1.png");*/
+}
+.my-crs-img-2 {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*background-image: url("../../../assets/images/StudentPanel/4.png");*/
+}
+.my-crs-img-3 {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*background-image: url("../../../assets/images/StudentPanel/12.jpg");*/
+  background-position: 0% 60%;
+}
+
+hr {
+  background: #ccc;
+  height: 2px;
+  margin-top: -10px;
+}
+
+@media only screen and (max-width: 900px) {
+  hr {
+    display: none;
+  }
+}

@@ -1,0 +1,17 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: lale;
+  src: url("assets/fonts/Lalezar-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: est;
+  src: url("assets/fonts/Estedad-VF.ttf") format("truetype");
+}
+@font-face {
+  font-family: moon;
+  src: url("assets/fonts/MoonBold.ttf") format("truetype");
+}

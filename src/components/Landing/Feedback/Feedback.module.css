@@ -1,0 +1,175 @@
+.contain {
+  display: flex;
+  justify-content: space-between;
+  background: #002c39;
+  border: none;
+  border-radius: 0;
+}
+.bg {
+  background: url("../../../assets/images/Feedback/feedback.png") no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+.feedback {
+  padding: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
+}
+.title {
+  font-size: 3vh;
+}
+.email {
+  
+  font-family: "est";
+  background: #004458;
+  color: #fff;
+  width: 50%;
+  border-radius: 15px !important;
+}
+.mail {
+  font-size: 2.2vh;
+}
+.txtArea {
+  max-height: 95px;
+  min-height: 95px;
+  width: 50%;
+}
+.areaText {
+  font-size: 2.2vh;
+}
+.btn {
+  width: fit-content;
+  background: #004458;
+  border: none;
+  padding: 10px 18px;
+  font-family: est;
+  font-size: 2.2vh;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.btn:hover {
+  background: rgb(1, 54, 70);
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+@media (max-width: 1399.98px) {
+  .title {
+    font-size: 17px;
+  }
+
+  .mail {
+    font-size: 15px;
+  }
+
+  .areaText {
+    font-size: 15px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .title {
+    font-size: 16px;
+  }
+  .email {
+    width: 60%;
+  }
+  .mail {
+    font-size: 15px;
+  }
+
+  .txtArea {
+    width: 60%;
+  }
+  .areaText {
+    font-size: 15px;
+  }
+}
+@media (max-width: 991.98px) {
+  .title {
+    font-size: 15px;
+  }
+  .email {
+    width: 65%;
+  }
+  .mail {
+    font-size: 14px;
+  }
+  .txtArea {
+    width: 65%;
+  }
+  .areaText {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 945px) {
+  .bg {
+    display: none;
+  }
+  .feedback {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .email {
+    margin: 0 auto;
+  }
+  .txtArea {
+    font-size: 15px;
+    margin: 0 auto;
+  }
+  .btn {
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .title {
+    font-size: 15px;
+  }
+  .email {
+    width: 70%;
+  }
+  .mail {
+    font-size: 14px;
+  }
+  .txtArea {
+    width: 70%;
+  }
+  .areaText {
+    font-size: 14px;
+  }
+  .btn {
+    font-size: 14px;
+  }
+}
+@media (max-width: 575.98px) {
+  .title {
+    font-size: 14px;
+  }
+  .email {
+    width: 80%;
+  }
+  .mail {
+    font-size: 13px;
+  }
+  .txtArea {
+    width: 80%;
+  }
+  .areaText {
+    font-size: 13px;
+  }
+  .btn {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .btn {
+    font-size: 12px;
+  }
+}

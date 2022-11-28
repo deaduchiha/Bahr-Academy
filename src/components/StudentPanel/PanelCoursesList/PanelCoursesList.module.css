@@ -1,0 +1,215 @@
+.my-thead {
+  background-color: #088568;
+  color: #fff;
+  font-family: est;
+  font-size: 14px;
+}
+
+.my-trr {
+  border: 0 none !important;
+}
+.my-trb {
+  height: 55px;
+  line-height: 48px;
+
+  font-family: est;
+  font-size: 13.5px;
+  color: #1d8a70ef;
+  cursor: pointer;
+}
+.my-trb:hover {
+  background-color: #24a58721;
+}
+.my-tbd {
+  border: 0 none !important;
+  background-color: #f1f1f1c4;
+}
+.my-thh {
+  padding: 15px 12px !important;
+}
+.my-img {
+  width: 58px;
+  height: 46px;
+  border-radius: 2px;
+}
+.my-add-img {
+  width: 30px;
+}
+.my-bt {
+  background-color: none !important;
+  background-color: transparent !important;
+  border: 0 none;
+  transition: 0.4s;
+}
+.my-bt:hover {
+  transform: scale(1.1);
+}
+
+.my-bt-panel {
+  font-family: est !important;
+  font-size: 13px;
+  color: #fff;
+  border-radius: 3px !important;
+}
+
+.modal-title {
+  padding: 0px !important;
+  padding-right: 10px !important;
+  height: auto !important;
+  background-color: #088568;
+  color: #fff;
+  margin-bottom: 0px !important;
+}
+
+.modal-panel-name {
+  font-family: est !important;
+  font-weight: 600;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.541);
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.modal-panel-name > span {
+  font-family: lale;
+  font-size: 15px;
+  color: #088568fd;
+}
+
+.capNumber {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-left: 5px;
+  font-family: est;
+  font-size: 14px;
+  border-radius: 4px;
+  color: rgba(0, 0, 0, 0.637);
+  border: 1px solid #088568;
+  background-color: #fff !important;
+}
+.numm {
+  color: rgba(0, 0, 0, 0.637);
+}
+.showNumber {
+  position: absolute;
+  right: 0;
+  bottom: 4px;
+  margin-right: 6px;
+  font-family: est;
+  font-size: 14px;
+  color: #088568;
+}
+.cartButton {
+  background: #028090 !important;
+  box-shadow: none !important;
+  color: #fff !important;
+  width: fit-content !important;
+  min-width: unset !important;
+}
+.cartButton svg {
+  font-size: 1.1rem !important;
+}
+.cartButton:hover {
+  color: #fff !important;
+  box-shadow: 1px 1px 5px #1e1b189e !important;
+}
+.cartButtonDelete {
+  color: #fff !important;
+  background: #d8315b !important;
+}
+
+@media (max-width: 1399.98px) {
+  .cartButton svg {
+    font-size: 1rem !important;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .cartButton svg {
+    font-size: 0.95rem !important;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .cartButton svg {
+    font-size: 0.9rem !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .cartButton svg {
+    font-size: 0.85rem !important;
+  }
+  .my-trb {
+    height: 55px;
+
+    font-size: 13px;
+  }
+  .my-img {
+    width: 47px;
+  }
+  .my-add-img {
+    width: 27px;
+  }
+  .mob-remove {
+    display: none;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .cartButton svg {
+    font-size: 0.8rem !important;
+  }
+  .my-thead {
+    font-size: 12px;
+  }
+  .my-trb {
+    height: 45px;
+
+    font-size: 11px;
+  }
+  .my-img {
+    width: 45px;
+  }
+  .my-add-img {
+    width: 25px;
+  }
+  .modal-title {
+    font-size: 13px;
+  }
+
+  .modal-panel-name {
+    font-weight: 500;
+    font-size: 13px;
+  }
+
+  .modal-panel-name > span {
+    font-size: 13px;
+  }
+  .my-bt-panel {
+    font-size: 11px !important;
+  }
+  .paginationOptions {
+    height: 100px;
+  }
+  .showNumber {
+    bottom: 2.5px;
+    font-size: 12px;
+  }
+  .capNumber {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 485.98px) {
+  .small-remove {
+    display: none;
+  }
+  .my-thead {
+    font-size: 9px;
+  }
+  .my-trb {
+    font-size: 9px;
+  }
+}

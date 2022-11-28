@@ -1,0 +1,49 @@
+.progres {
+  flex: 30.3%;
+  width: 200px;
+  margin: 0 auto;
+  height: 35px;
+  border-radius: 50px;
+  background: rgb(224, 224, 224);
+}
+.progresBar {
+  border-radius: 50px;
+  font-family: moon;
+  font-size: 13px;
+  animation: progres 2.5s normal linear;
+}
+
+@keyframes progres {
+  0% {
+    width: 0%;
+    opacity: 0.5;
+  }
+
+  100% {
+    width: --w;
+    opacity: 1;
+  }
+}
+.progressTitle {
+  color: #004458;
+  text-align: center;
+  font-family: lale;
+}
+
+@media only screen and (max-width: 900px) {
+  .progresBar {
+    font-size: 11px;
+  }
+  .progressTitle {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 345px) {
+  .progres {
+    flex: 100%;
+  }
+  .progresBar {
+    font-size: 10px;
+  }
+}

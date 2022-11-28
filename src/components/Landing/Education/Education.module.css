@@ -1,0 +1,81 @@
+.education {
+  text-align: center;
+}
+.slant {
+  background: linear-gradient(to right, #1d3557, #2b4f82);
+  height: 27vh;
+  width: 100%;
+  display: flex;
+  color: #fff;
+  font-family: est;
+}
+.describ {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.slant:nth-child(odd) {
+  background: #1d3557;
+}
+.image {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../../../assets/images/Education/business\ people.png")
+    no-repeat;
+  background-size: 100% 100%;
+}
+.image2 {
+  background: url("../../../assets/images/Education/young\ handsome.png")
+    no-repeat;
+  background-size: 100% 100%;
+}
+.image3 {
+  background: url("../../../assets/images/Education/cheerful.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.title {
+  font-size: 2.5vh;
+  padding-bottom: 5px;
+}
+.par {
+  font-size: 1.8vh;
+  color: #c6c6c6;
+}
+
+.buttonGrid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: #1d35579f;
+  height: 100%;
+}
+
+@media (max-width: 1399.98px) {
+  .title {
+    font-size: 15px;
+  }
+  .par {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .title {
+    font-size: 14px;
+  }
+  .par {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 470px) {
+  .describ {
+    text-align: center;
+    width: 100%;
+  }
+}

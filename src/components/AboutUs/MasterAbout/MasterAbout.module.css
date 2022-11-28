@@ -1,0 +1,103 @@
+.master {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.masterCard {
+  max-width: fit-content;
+  text-align: center;
+  font-family: est;
+  flex: 40%;
+  padding: 35px;
+}
+.image {
+  height: 190px;
+  width: 200px;
+  overflow: hidden;
+  border-radius: 100%;
+  padding: 0px;
+}
+.image img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.masterName {
+  margin: 10px 0 10px 0;
+  color: #004458;
+}
+.masterName p {
+  padding: 0;
+  margin: 0;
+  font-size: 17px;
+}
+.masterCarrier {
+  margin: 0;
+  font-size: 15px;
+  color: #5b5b5b;
+}
+@media (max-width: 1399.98px) {
+  .masterName p {
+    font-size: 16px;
+  }
+  .masterCarrier p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .masterName p {
+    font-size: 15px;
+  }
+  .masterCarrier p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .masterCard {
+    flex: 33.3%;
+    padding: 20px;
+  }
+
+  .image {
+    height: 170px;
+    width: 180px;
+  }
+  .masterName p {
+    font-size: 14px;
+  }
+  .masterCarrier p {
+    font-size: 13px;
+  }
+}
+@media (max-width: 767.98px) {
+  .masterName p {
+    font-size: 13px;
+  }
+  .masterCarrier {
+    font-size: 12px;
+  }
+  .image {
+    height: 140px;
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 575.98px) {
+  .masterCard {
+    padding: 20px;
+  }
+  .image {
+    width: 120px;
+    height: 130px;
+  }
+  .masterName p {
+    font-size: 12px;
+  }
+  .masterCarrier p {
+    font-size: 11px;
+  }
+}

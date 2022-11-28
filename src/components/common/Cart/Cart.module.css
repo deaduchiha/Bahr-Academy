@@ -1,0 +1,130 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border: 1px solid #ebebeb;
+  background-color: #fff;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  font-family: est;
+}
+.image {
+  width: 120px;
+  max-height: 90px;
+  min-height: 90px;
+}
+.data {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.data h3 {
+  height: 20px;
+  font-size: 1.115rem;
+  color: #004d66;
+  font-weight: 200;
+  width: fit-content;
+}
+.data h3::before {
+  content: "دوره: ";
+  color: #003d52;
+  font-weight: 800;
+}
+.data p {
+  color: #004d66;
+  max-width: 250px;
+  margin-top: 15px;
+  font-size: 1rem;
+}
+.data p::before {
+  content: "قیمت: ";
+  color: #003d52;
+  font-weight: 800;
+}
+.data p::after {
+  content: " تومان";
+  color: #004d66;
+}
+
+.removeButt {
+  display: flex;
+  font-family: est !important;
+  background-color: #002b37 !important;
+  color: #fff !important;
+  transition: all 0.2 ease;
+  width: fit-content !important;
+  font-size: 0.8rem !important;
+  font-weight: bold;
+}
+
+@media (max-width: 1399.98px) {
+}
+
+@media (max-width: 1199.98px) {
+  .data h3 {
+    font-size: 1rem;
+  }
+  .data p {
+    margin-top: 10px;
+    font-size: 0.9rem;
+  }
+  .removeButt {
+    font-size: 0.8rem !important;
+  }
+}
+@media (max-width: 991.98px) {
+  .container {
+    width: 100%;
+  }
+  .data h3 {
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
+  .data p {
+    font-size: 0.8rem;
+  }
+  .removeButt {
+    font-size: 0.7rem !important;
+  }
+}
+@media (max-width: 767.98px) {
+  .data p::before {
+    content: "قیمت: ";
+  }
+  .data p::after {
+    content: "";
+  }
+  .data h3::before {
+    content: "";
+  }
+  .data h3 {
+    margin-top: 10px;
+    font-size: 0.8rem;
+  }
+  .data p {
+    margin-top: 20px;
+    font-size: 0.7rem;
+  }
+  .removeButt {
+    font-size: 0.6rem !important;
+  }
+}
+@media (max-width: 575.98px) {
+  .image {
+    display: none;
+  }
+  .data p {
+    display: none;
+  }
+  .data h3 {
+    margin-top: 10px;
+    font-size: 0.7rem;
+  }
+
+  .removeButt {
+    font-size: 0.55rem !important;
+  }
+}

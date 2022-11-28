@@ -1,0 +1,254 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.course {
+  width: 50%;
+}
+
+.courseBtn {
+  position: absolute;
+
+  height: fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: -1rem;
+}
+
+.learningGrid {
+  font-family: est;
+  border: 1px solid #d1d1d1;
+  height: 90%;
+  width: 75%;
+  float: left;
+  position: relative;
+}
+.learningGrid h3 {
+  padding-top: 15vh;
+  padding-right: 50px;
+  color: #004458;
+  padding-bottom: 15px;
+  font-size: 21px;
+}
+.learningGrid p {
+  padding-right: 50px;
+  color: #7e7e7e;
+  width: 90%;
+  font-size: 17px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.courseShape {
+  border: 2px solid #09b28b;
+  min-height: 23rem;
+  width: 23rem;
+  float: left;
+  margin-top: 12vh;
+  margin-bottom: 10vh;
+  margin-left: 9vh;
+  position: relative;
+}
+
+.cSharp {
+  background: #6a1577;
+  width: 15rem;
+  height: max-content;
+  color: #fff;
+  position: absolute;
+  top: 1.3rem;
+  right: -1rem;
+  border-radius: 5px;
+}
+
+.icon img {
+  display: block;
+  width: 4.4rem;
+  min-width: 20%;
+  margin: 0 auto;
+  padding-top: 7%;
+  padding-bottom: 6%;
+}
+
+.button {
+  width: fit-content;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.javascript {
+  background: #f7df1e;
+  width: 12rem;
+  height: 15rem;
+  color: #fff;
+  position: absolute;
+  top: -2rem;
+  left: -5rem;
+  border-radius: 5px;
+  padding-top: 35px;
+}
+
+.java {
+  padding-top: 25px;
+  background: #ffe8fc;
+  width: 12.5rem;
+  height: 12rem;
+  color: #fff;
+  position: absolute;
+  top: 12rem;
+  right: 7%;
+  border-radius: 5px;
+}
+
+.bootstrap {
+  padding-top: 35px;
+  background: #cab2ef;
+  width: 10rem;
+  height: 11rem;
+  color: #fff;
+  position: absolute;
+  top: 15rem;
+  left: -2.5rem;
+  border-radius: 5px;
+}
+@media (max-width: 1399.98px) {
+  .learningGrid h3 {
+    font-size: 20px;
+  }
+  .learningGrid p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .learningGrid h3 {
+    font-size: 19px;
+  }
+  .learningGrid p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 991.98px) {
+  .learningGrid h3 {
+    font-size: 18px;
+  }
+  .learningGrid p {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 885px) {
+  .courseItems {
+    padding: 0;
+    flex: 40%;
+    margin: 2%;
+  }
+  .container {
+    flex-direction: column-reverse;
+  }
+  .course {
+    width: 100%;
+  }
+  .learningGrid {
+    width: 100%;
+    height: min-content;
+    padding: 20px;
+    margin-bottom: 40px;
+  }
+  .learningGrid h3 {
+    text-align: center;
+    padding: 0;
+    padding-bottom: 20px;
+  }
+  .learningGrid p {
+    padding: 0;
+    color: #7e7e7e;
+    width: 100%;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-bottom: 10px;
+  }
+
+  .courseShape {
+    width: 100%;
+    float: none;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-bottom: -19px;
+  }
+  .cSharp,
+  .javascript,
+  .java,
+  .bootstrap {
+    position: initial;
+    width: 10rem;
+    height: 10rem;
+  }
+  .java {
+    padding-top: 10px;
+  }
+  .bootstrap img {
+    width: 10rem;
+  }
+  .bootstrap {
+    padding-top: 5px;
+  }
+
+  .button {
+    padding: 0;
+  }
+}
+@media (max-width: 767.98px) {
+  .learningGrid h3 {
+    font-size: 17px;
+  }
+  .learningGrid p {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 608.5px) {
+  .learningGrid h3 {
+    font-size: 16px;
+  }
+  .learningGrid p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 575.98px) {
+  .learningGrid h3 {
+    font-size: 15px;
+  }
+  .learningGrid p {
+    font-size: 11px;
+  }
+}
+@media only screen and (max-width: 409px) {
+  .courseItems {
+    margin: 0;
+  }
+  .learningGrid {
+    border: 1px solid transparent;
+  }
+  .courseShape {
+    flex-direction: column;
+  }
+  .cSharp,
+  .javascript,
+  .java,
+  .bootstrap {
+    width: 95%;
+    height: max-content;
+    margin: 0.5rem auto;
+    border-radius: 10px;
+  }
+  .button {
+    padding: 2rem;
+  }
+  .icon img {
+    padding: 0.5rem;
+  }
+}

@@ -1,0 +1,135 @@
+.container {
+  height: 100vh;
+  background: url("../../../assets/images/Landing/InformationBack.png")
+    no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.grid {
+  background: #00000069;
+  width: 100%;
+  height: 100%;
+  border-top: 1px solid transparent;
+}
+.cards {
+  height: 44%;
+  background: rgba(0, 0, 0, 0.489);
+  position: relative;
+  top: 55%;
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  border: 1px solid #70707075;
+  height: 100%;
+  width: 33.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  gap: 7vh;
+  font-family: est;
+  font-size: 20px;
+}
+.icon {
+  padding-top: 55px;
+}
+.icon svg {
+  font-size: 3rem;
+}
+.title {
+  margin-top: -25px;
+  font-size: 20px;
+}
+.des {
+  margin-top: -15px;
+  text-align: center;
+  width: 85%;
+  color: #a5a5a5;
+  font-size: 14px;
+}
+
+.typeHolder {
+  transform: translateY(130px);
+  text-align: center;
+  font-family: est !important;
+  font-size: 17px !important;
+  color: rgba(255, 255, 255, 0.842) !important;
+}
+
+@media (max-width: 1399.98px) {
+  .title {
+    font-size: 17px;
+  }
+  .des {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .title {
+    font-size: 16px;
+  }
+  .des {
+    font-size: 13px;
+  }
+}
+@media (max-width: 991.98px) {
+  .title {
+    font-size: 15px;
+  }
+  .des {
+    font-size: 12px;
+  }
+}
+@media (max-width: 899px) {
+  .cards {
+    flex-direction: column;
+    position: unset;
+    top: 0;
+    height: 100%;
+    align-items: center;
+  }
+  .card {
+    width: 100%;
+    gap: 0px;
+  }
+  .icon {
+    padding-top: 3vh;
+  }
+  .icon svg {
+    font-size: 2rem;
+  }
+  .title {
+    margin: 10px;
+    padding-top: 3vh;
+  }
+  .des {
+    margin: 5px;
+    padding-top: 3vh;
+  }
+  .typeHolder {
+    display: none;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .title {
+    font-size: 14px;
+  }
+  .des {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .icon svg {
+    font-size: 1.8rem;
+  }
+  .title {
+    font-size: 13px;
+  }
+  .des {
+    font-size: 10px;
+  }
+}

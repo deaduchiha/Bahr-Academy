@@ -1,0 +1,44 @@
+.title {
+  margin-top: 40px;
+  color: #004458;
+  text-align: center;
+}
+.namad {
+  display: flex;
+  justify-content: space-evenly;
+  height: fit-content !important;
+}
+.namadItems {
+  width: 130px;
+  border-radius: 15px;
+  padding: 5px;
+}
+.namadItems img {
+  display: block;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 900px) {
+  .title {
+    font-size: 20px;
+    text-align: center;
+  }
+  .namadItems {
+    width: 130px;
+    border-radius: 15px;
+    padding: 5px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 17px;
+  }
+  .namadItems {
+    width: 120px;
+    border-radius: 15px;
+    padding: 5px;
+  }
+  .namadItems img {
+    width: 60%;
+    height: 80%;
+  }
+}
