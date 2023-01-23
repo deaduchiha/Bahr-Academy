@@ -7,7 +7,7 @@ import Http from "../../core/services/interceptor/interceptor";
 
 // check
 
-const CommentReplayBox = ({ okOnClick, commentId }) => {
+const CommentReplayBox = ({ commentId }) => {
   const [answer, setAnswer] = useState();
 
   const handleAnswerChange = (e) => {

@@ -1,11 +1,7 @@
 import React, { useContext, Fragment } from "react";
 import { Button } from "@mui/material";
 import { Link } from "react-router-dom";
-import {
-  getItem,
-  setItem,
-  clearStorage,
-} from "../../../../core/services/storage/storage";
+import { getItem } from "../../../../core/services/storage/storage";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 

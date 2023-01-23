@@ -6,7 +6,7 @@ import Progress from "../../components/Servises/Progress/Progress";
 import Members from "../../components/Servises/Members/Members";
 import CourseHeader from "../../components/Courses/CourseHeader";
 
-const Sevises = ({}) => {
+const Sevises = () => {
   return (
     <Fragment>
       <CourseHeader />

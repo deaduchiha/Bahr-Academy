@@ -1,5 +1,4 @@
 import React from "react";
-import _ from "lodash";
 import { Pagination } from "@mui/material";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import rtlPlugin from "stylis-plugin-rtl";
@@ -22,11 +21,9 @@ const PaginationModule = ({
   itemCount,
   pageSize,
   onPageChanger,
-  pageCurrent,
-  itemLength,
   backColor,
 }) => {
-  const [direction, setDirection] = React.useState("rtl");
+  const [direction] = React.useState("rtl");
 
   const pagesCount = Math.ceil(itemCount / pageSize);
   if (pagesCount === 1) return null;

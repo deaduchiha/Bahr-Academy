@@ -4,9 +4,7 @@ import LikeDisComment from "../common/LikeDisComment";
 import style from "../../screens/NewsDetails/NewsDetails.module.css";
 import Team from "../../assets/images/CourseDetails/team.png";
 import Cap from "../../assets/images/CourseDetails/cap.png";
-import Like from "../../assets/images/CourseDetails/like.png";
 import Cal from "../../assets/images/CourseDetails/calendar.png";
-import Star from "../../assets/images/CourseDetails/star.png";
 import Teacher from "../../assets/images/CourseDetails/teacher.png";
 import Stu from "../../assets/images/CourseDetails/stu.png";
 import DownSwiper from "../common/DownSwiper";
@@ -28,7 +26,6 @@ const CoursesDetailsTopContent = ({
   courseId,
   courseImg,
   isLoad,
-  isLoadPic,
 }) => {
   const isLogged = useContext(IsLoggedContext);
   const CurrentUser = isLogged.currentStudent;

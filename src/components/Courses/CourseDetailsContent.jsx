@@ -19,8 +19,8 @@ const CourseDetailsContent = ({}) => {
 
   const { id } = useParams();
   const [course, setCourse] = useState([]);
-  const [article, setArticle] = useState([]);
-  const [course2, setCourse2] = useState({
+  const [article] = useState([]);
+  const [course2] = useState({
     teacher: { fullName: "" },
     lesson: { description: "" },
     image: "",

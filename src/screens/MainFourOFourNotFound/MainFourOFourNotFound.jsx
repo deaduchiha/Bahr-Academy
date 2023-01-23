@@ -1,13 +1,13 @@
-import React, { Fragment } from "react";
+import React from "react";
 import CourseHeader from "../../components/Courses/CourseHeader";
 import MainContainer from "../../components/NotFoundPageMain/MainContent";
 
-const MainFourOFourNotFound = ({}) => {
+const MainFourOFourNotFound = () => {
   return (
-    <Fragment>
+    <>
       <CourseHeader />
       <MainContainer />
-    </Fragment>
+    </>
   );
 };
 

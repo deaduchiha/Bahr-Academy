@@ -1,12 +1,11 @@
-import React, { useEffect, useContext } from "react";
+import React, { useContext } from "react";
 import style from "../../screens/NewsDetails/NewsDetails.module.css";
 import Person from "../../assets/images/NewsDetails/person2.png";
 import CommentRep from "./CommentRep";
 import CommentLikeDislike from "./CommentLikeDislike";
 import CommentReplayBox from "./CommentReplayBox";
 import { IsLoggedContext } from "../../context/LoggedInCheckProvider";
-import Http from "../../core/services/interceptor/interceptor";
-import { ToastContainer, toast } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const Comment = ({
@@ -19,12 +18,10 @@ const Comment = ({
   cmDislike,
   repData,
   cmId,
-  cmEmail,
   cmData,
   handleReporter,
 }) => {
   const isLogged = useContext(IsLoggedContext);
-  const CurrentUser = isLogged.currentStudent;
 
   const handleReplayShow = () => {
     if (isLogged.currentLogged && isLogged.currentStudent.role === "admin") {

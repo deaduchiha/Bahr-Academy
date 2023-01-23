@@ -1,4 +1,3 @@
-import { setItem } from "../storage/storage";
 import Http from "../interceptor/interceptor";
 
 // main url of backend

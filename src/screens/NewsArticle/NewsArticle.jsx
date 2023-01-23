@@ -1,13 +1,13 @@
-import React, { Fragment } from "react";
+import React from "react";
 import CourseHeader from "../../components/Courses/CourseHeader";
 import NewsArticlePageContent from "../../components/NewsArticles/NewsArticlePageContent";
 
-const NewsArticle = ({}) => {
+const NewsArticle = () => {
   return (
-    <Fragment>
+    <>
       <CourseHeader />
       <NewsArticlePageContent />
-    </Fragment>
+    </>
   );
 };
 

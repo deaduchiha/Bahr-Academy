@@ -2,7 +2,7 @@ import React, { useState, useEffect, Fragment } from "react";
 import styles from "./Navbar/Navbar.module.css";
 import "../Landing/OnSupport/OnSupportClaases.css";
 import Loggo from "../../assets/images/StudentPanel/aLogo.png";
-import Person from "../../assets/images/NewsDetails/person2.png";
+
 import Profile from "../../assets/images/NewsDetails/profile2.png";
 import axios from "axios";
 import UserRep from "./OnlineSupportComps/UserRep";
@@ -11,16 +11,16 @@ import AdminRep from "./OnlineSupportComps/AdminRep";
 const OnlineSupport = () => {
   const [allComment, setAllComment] = useState([]);
   const [des, setDes] = useState("");
-  const [type, setType] = useState("کاربر");
-  const [name, setName] = useState("بازدید کننده");
-  const [email, setEmail] = useState("adnanREzaii@gmail.com");
-  const [image, setImage] = useState("");
-  const [ip, setIp] = useState("");
+  const [type] = useState("کاربر");
+  const [name] = useState("بازدید کننده");
+  const [email] = useState("adnanREzaii@gmail.com");
+  const [image] = useState("");
+  const [ip] = useState("");
   const [datee, setDatee] = useState();
-  const [repFlag, setRepFlag] = useState("false");
+  const [repFlag] = useState("false");
   const [chatFlag, setChatFlag] = useState(0);
   const [notFlag, setNotFlag] = useState(true);
-  const [flagg, setFlagg] = useState("user");
+  const [flagg] = useState("user");
 
   const [adminFlag, setAdminFlag] = useState(true);
 
@@ -31,7 +31,7 @@ const OnlineSupport = () => {
       setDatee(new Date().toISOString());
     }
     dataGetter();
-  },[]);
+  }, []);
 
   async function dataGetter() {
     const { data: cmList } = await axios.get("http://localhost:8009/Chat");

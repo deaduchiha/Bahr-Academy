@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 import Navbar from "./Navbar";
 import style from "../../../screens/NewsDetails/NewsDetails.module.css";
 
-const NavBarAll = ({}) => {
+const NavBarAll = () => {
   const pageUrl = useLocation().pathname;
 
   useEffect(() => {

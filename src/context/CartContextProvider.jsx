@@ -1,10 +1,5 @@
-import { set } from "lodash";
-import React, { useReducer, useContext, createContext, useEffect } from "react";
-import {
-  getItem,
-  setItem,
-  clearStorage,
-} from "../core/services/storage/storage";
+import React, { useReducer, createContext, useEffect } from "react";
+import { getItem, setItem } from "../core/services/storage/storage";
 import { LoadProduct } from "../helper/function";
 
 const initialState = {
@@ -68,8 +63,6 @@ const cartReducer = (state, action) => {
         "Checkout",
         JSON.stringify(state.selectedItems.map((item) => item._id))
       );
-      const carts = JSON.parse(getItem("Checkout"));
-      //console.log("cart= " + carts);
 
       setItem("Cart", JSON.stringify([]));
       return {

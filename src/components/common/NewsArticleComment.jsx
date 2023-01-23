@@ -2,7 +2,6 @@ import React, { useState, useEffect, useContext } from "react";
 import style from "../../screens/NewsDetails/NewsDetails.module.css";
 import Person from "../../assets/images/StudentPanel/person6.png";
 import Comment from "./Comment";
-import CommentRep from "./CommentRep";
 import { IsLoggedContext } from "../../context/LoggedInCheckProvider";
 import Http from "../../core/services/interceptor/interceptor";
 import { ToastContainer, toast } from "react-toastify";

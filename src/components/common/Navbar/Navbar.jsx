@@ -1,4 +1,4 @@
-import React, { useContext, useState, Fragment, useEffect } from "react";
+import React, { useContext, Fragment, useEffect } from "react";
 import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
@@ -27,13 +27,11 @@ import { AllCoursesContext } from "../../../context/AllCoursesProvider";
 // Icon
 import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
 import iconBambo from "../../../assets/images/StudentPanel/Bambo.png";
-import Person from "../../../assets/images/StudentPanel/person6.png";
-import Profile2 from "../../../assets/images/StudentPanel/profile2.png";
 
 const pages = ["درباره ما", "خدمات", "اخبار", "دوره ها"];
 const sign = ["ورود", "ثبت نام"];
 
-const Navbar = ({}) => {
+const Navbar = () => {
   const pageUrl = useLocation().pathname;
   const navigate = useNavigate();
 

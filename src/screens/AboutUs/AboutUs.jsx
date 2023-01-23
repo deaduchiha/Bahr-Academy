@@ -3,7 +3,7 @@ import MainContent from "../../components/common/MainContent/MainContent";
 import Describtion from "../../components/AboutUs/Describtion/Describtion";
 import CourseHeader from "../../components/Courses/CourseHeader";
 
-const AboutUs = ({}) => {
+const AboutUs = () => {
   return (
     <>
       <CourseHeader />

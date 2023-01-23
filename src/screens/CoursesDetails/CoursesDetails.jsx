@@ -1,11 +1,11 @@
-import React, { Fragment } from "react";
+import React from "react";
 import CourseDetailsContent from "../../components/Courses/CourseDetailsContent";
 
-const CoursesDetails = ({}) => {
+const CoursesDetails = () => {
   return (
-    <Fragment>
+    <>
       <CourseDetailsContent />
-    </Fragment>
+    </>
   );
 };
 

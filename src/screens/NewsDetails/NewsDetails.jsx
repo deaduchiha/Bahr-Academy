@@ -1,11 +1,11 @@
-import React, { useState, useEffect, Fragment } from "react";
+import React from "react";
 import NewsDetailsContent from "../../components/NewsArticles/NewsDetailsContent";
 
-const NewsDetails = ({}) => {
+const NewsDetails = () => {
   return (
-    <Fragment>
+    <>
       <NewsDetailsContent />
-    </Fragment>
+    </>
   );
 };
 

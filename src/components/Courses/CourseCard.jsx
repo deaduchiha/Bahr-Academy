@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import style from "../../screens/Courses/Courses.module.css";
 import Like from "../../assets/images/Courses/like2.png";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import CourseLike from "../common/CourseLike";
 import CourseModal from "./CourseModal";
 import AOS from "aos";
@@ -17,14 +17,11 @@ const CourseCard = ({
   cardTeacher,
   cardCap,
   cardPrice,
-  cardLike,
   cardLikeNum,
   cardStart,
   cardEnd,
   cardSit,
   cardId,
-  cData,
-  cIndex,
 }) => {
   const isLogged = useContext(IsLoggedContext);
   const CurrentUser = isLogged.currentStudent;

@@ -1,9 +1,6 @@
-import { setItem } from "../storage/storage";
-import Http from "../interceptor/interceptor";
 import axios from "axios";
 
 // main url of backend
-const MainUrl = process.env.REACT_APP_PUBLIC_PATH;
 
 const PictureUpdate = async (OriginData) => {
   try {

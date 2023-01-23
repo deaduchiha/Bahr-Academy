@@ -1,4 +1,3 @@
-import axios from "axios";
 import Http from "../core/services/interceptor/interceptor";
 
 const quantityCount = (state, _id) => {

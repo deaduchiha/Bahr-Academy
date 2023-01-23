@@ -8,14 +8,9 @@ export const AllCoursesContext = createContext();
 const AllCoursesProvider = ({ children }) => {
   const [courses, setCourses] = useState([]);
   const [courseId, setCourseId] = useState();
-  const [myCourses, setMyCourses] = useState([]);
 
   const handleSetCourseId = (id) => {
     setCourseId(id);
-  };
-
-  const handleAddMyCourses = (course) => {
-    setMyCourses(course);
   };
 
   useEffect(() => {

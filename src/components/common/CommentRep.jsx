@@ -1,26 +1,8 @@
 import React from "react";
-import CommentLikeDislike from "./CommentLikeDislike";
+
 import style from "../../screens/NewsDetails/NewsDetails.module.css";
-import CommentReplayReplay from "./CommentReplayReplay";
-import CommentReplayBoxTwo from "./CommentReplayBox2";
 
-const CommentRep = ({
-  cmImg,
-  cmName,
-  cmType,
-  cmDate,
-  cmCon,
-  cmLike,
-  cmDislike,
-}) => {
-  const handleReplayShow = () => {
-    document.getElementById("replayShow2").style.display = "block";
-  };
-
-  const handleGetRelay = () => {
-    document.getElementById("replayShow2").style.display = "none";
-  };
-
+const CommentRep = ({ cmImg, cmName, cmType, cmDate, cmCon }) => {
   return (
     <div className={`card-body ${style["reply-body"]}`}>
       <div className="d-flex flex-start align-items-center">
@@ -42,13 +24,6 @@ const CommentRep = ({
       </div>
 
       <p className="mt-3 mb-0 pb-2 ms-3">{cmCon}</p>
-      {/* <CommentLikeDislike
-        like={cmLike}
-        Dislike={cmDislike}
-        repHandle={handleReplayShow}
-      />
-     <CommentReplayBoxTwo okOnClick={handleGetRelay} />
-  <CommentReplayReplay img={cmImg} like={cmLike} dis={cmDislike} />*/}
     </div>
   );
 };

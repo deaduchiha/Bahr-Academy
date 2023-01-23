@@ -17,8 +17,8 @@ const Search = ({ bggColor }) => {
 
   const [myClass, setMyClass] = useState();
   const [searchValue, setSearchValue] = useState("");
-  const [courses, setCourses] = useState([]);
-  const [news, setNews] = useState([]);
+  const [courses] = useState([]);
+  const [news] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
   const handleValue = (e) => {
