@@ -5,8 +5,7 @@ import PanelTopNavItems from "./PanelTopNavItems";
 
 import styles from "../../screens/StudentPanel/StudentPanel.module.css";
 import s11 from "../../assets/images/StudentPanel/11.png";
-import s44 from "../../assets/images/StudentPanel/44.png";
-import s55 from "../../assets/images/StudentPanel/55.png";
+
 import { IsLoggedContext } from "../../context/LoggedInCheckProvider";
 import Http from "../../core/services/interceptor/interceptor";
 

@@ -1,5 +1,5 @@
-import React, { useState, useContext, useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+
 import PanelTitleInfo from "../../common/PanelTitleInfo";
 import NotAvailableCourse from "../../common/NotAvailableCourse";
 import axios from "axios";
@@ -13,15 +13,11 @@ import Add from "../../../assets/images/StudentPanel/add.png";
 import NewLoader from "../../../assets/images/CourseDetails/newLoader.gif";
 import TableTheadPanel from "../../common/TableTheadPanel";
 import TableTbodyPanel from "../../common/TableTbodyPanel";
-import { AllCoursesContext } from "../../../context/AllCoursesProvider";
 
 const apiEndpoint2 = "http://localhost:8001/myCourses";
 const apiEndpoint = "https://invalid-js.herokuapp.com/api/course/getall";
 
 const PanelCoursesList = () => {
-  const pageUrl = useLocation().pathname;
-  const AllCourses = useContext(AllCoursesContext);
-
   const [pageSize, setPageSize] = useState(4);
   const [currentPage, setCurrentPage] = useState(1);
   const [courses, setCourses] = useState([]);

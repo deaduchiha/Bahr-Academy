@@ -2,9 +2,7 @@ import React from "react";
 import styles from "./Education.module.css";
 import { Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
-import bussines from "../../../assets/images/Education/business people.png";
-import young from "../../../assets/images/Education/young handsome.png";
-import cheerful from "../../../assets/images/Education/cheerful.png";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 

@@ -6,7 +6,7 @@ import soheil from "../../../assets/images/Servises/Soheil.jpg";
 import alireza from "../../../assets/images/Servises/alireza.jpg";
 import shole from "../../../assets/images/Servises/shole.jpg";
 
-const Members = (props) => {
+const Members = () => {
   return (
     <>
       <h4 className={`${styles.membersTitle} mt-5 mb-4`}>تیم ما</h4>

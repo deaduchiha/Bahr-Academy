@@ -1,7 +1,7 @@
 import { Button } from "@mui/material";
 import React from "react";
 import styles from "../Header/HeaderCont.module.css";
-import { Link, Routes, Route, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const HeaderCont = () => {
   return (

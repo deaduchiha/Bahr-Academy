@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Help.module.css";
 import Cards from "./Cards";
-import StarIcon from "@mui/icons-material/Star";
+
 import StarsRoundedIcon from "@mui/icons-material/StarsRounded";
 import MovieFilterRoundedIcon from "@mui/icons-material/MovieFilterRounded";
 import HailRoundedIcon from "@mui/icons-material/HailRounded";

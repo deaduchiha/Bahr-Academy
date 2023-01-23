@@ -1,4 +1,4 @@
-import React, { useState, useContext, useEffect, Fragment } from "react";
+import React, { useState, useContext, useEffect } from "react";
 import PanelCardInfo from "../../common/PanelCardInfo";
 import PanelTitleInfo from "../../common/PanelTitleInfo";
 import StudentInfoCard from "../StudentInfoCard";
@@ -6,10 +6,6 @@ import NotAvailableCourse from "../../common/NotAvailableCourse";
 import { IsLoggedContext } from "../../../context/LoggedInCheckProvider";
 import Http from "../../../core/services/interceptor/interceptor";
 import NewLoader from "../../../assets/images/CourseDetails/newLoader.gif";
-
-import Reactt from "../../../assets/images/StudentPanel/React.png";
-import Jss from "../../../assets/images/StudentPanel/Js.png";
-import Profile from "../../../assets/images/StudentPanel/profile.jfif";
 
 const PanelDashbord = () => {
   const isLogged = useContext(IsLoggedContext);

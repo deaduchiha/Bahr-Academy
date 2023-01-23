@@ -13,7 +13,7 @@ import { setItem } from "../../../core/services/storage/storage";
 import PanelFormikChangePass from "../../common/PanelFormikChangePass";
 import Validations from "../../../core/validations/allValidationsModule";
 import styles from "../PanelEditProfile/PanelEditProfile.module.css";
-import Person from "../../../assets/images/StudentPanel/person.png";
+
 import { ForgetPass } from "../../../core/services/api/forget-pass-api";
 
 const PanelChangePass = () => {

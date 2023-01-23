@@ -1,11 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Cards from "./Cards";
-import master1 from "../../../assets/images/Master/master1.jpg";
-import bahr from "../../../assets/images/Master/bahr.png";
-import nazari from "../../../assets/images/Master/nazari.png";
 import Http from "../../../core/services/interceptor/interceptor";
-
-import AOS from "aos";
 import "aos/dist/aos.css";
 
 const MainUrl = process.env.REACT_APP_PUBLIC_PATH;

@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styles from "./News.module.css";
-import { carousel } from "bootstrap";
-import scott from "../../../assets/images/News/scott.png";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useNavigate } from "react-router-dom";

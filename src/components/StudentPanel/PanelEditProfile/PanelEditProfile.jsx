@@ -8,7 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 import PanelFormikLineContent from "../../common/PanelFormikLineContent";
 import Validations from "../../../core/validations/allValidationsModule";
 import styles from "./PanelEditProfile.module.css";
-import Person from "../../../assets/images/StudentPanel/person.png";
+
 import { setItem } from "../../../core/services/storage/storage";
 import { UpdateUser } from "../../../core/services/api/update-student-info-api";
 import { IsLoggedContext } from "../../../context/LoggedInCheckProvider";

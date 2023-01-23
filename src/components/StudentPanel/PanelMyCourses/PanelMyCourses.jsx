@@ -1,7 +1,7 @@
-import React, { Fragment, useState, useEffect, useContext } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import PanelTitleInfo from "../../common/PanelTitleInfo";
 import NotAvailableCourse from "../../common/NotAvailableCourse";
-import axios from "axios";
+
 import PaginationModule from "../../common/PaginationModule";
 import paginate from "../../../core/utils/paginate";
 import { ToastContainer, toast } from "react-toastify";
@@ -14,8 +14,6 @@ import TableTheadPanel from "../../common/TableTheadPanel";
 import TableTbodyPanel from "../../common/TableTbodyPanel";
 import { IsLoggedContext } from "../../../context/LoggedInCheckProvider";
 import Http from "../../../core/services/interceptor/interceptor";
-
-const apiEndpoint2 = "https://invalid-js.herokuapp.com/api/student/";
 
 const PanelMyCourses = () => {
   const isLogged = useContext(IsLoggedContext);

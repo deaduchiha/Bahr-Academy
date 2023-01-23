@@ -10,7 +10,7 @@ import one from "../../../assets/images/StudentPanel/1.png";
 import two from "../../../assets/images/StudentPanel/4.png";
 import three from "../../../assets/images/StudentPanel/12.jpg";
 
-const Header = ({}) => {
+const Header = () => {
   const [slides, setSlides] = useState([]);
 
   useEffect(() => {

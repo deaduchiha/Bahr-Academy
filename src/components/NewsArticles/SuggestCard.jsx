@@ -1,6 +1,5 @@
 import React from "react";
 import style from "../../screens/NewsDetails/NewsDetails.module.css";
-import { Link } from "react-router-dom";
 
 const SuggestCard = ({ cPic, cName, cTeacher, cTo, handleSet }) => {
   return (

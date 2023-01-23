@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import styles from "../../components/Register/Registerform.module.css";
 
 const RegisterPicContainer = () => {
-  const registerPic = require("../../assets/images/loginRegister/registerPic.png");
   const bamboo = require("../../assets/images/loginRegister/bamboo (d2).png");
   const insta = require("../../assets/images/loginRegister/insta.png");
   const tele = require("../../assets/images/loginRegister/tele.png");

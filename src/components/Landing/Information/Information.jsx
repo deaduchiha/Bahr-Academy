@@ -11,7 +11,7 @@ const MainUrl = process.env.REACT_APP_PUBLIC_PATH;
 
 const Information = (props) => {
   const [teachers, setTeachers] = useState({ length: 0 });
-  const [students, setStudents] = useState({ length: 32 });
+  const [students] = useState({ length: 32 });
   const [courses, setCourses] = useState({ length: 0 });
 
   useEffect(() => {

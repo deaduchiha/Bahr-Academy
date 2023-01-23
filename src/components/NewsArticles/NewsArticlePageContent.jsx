@@ -6,7 +6,6 @@ import Articles from "./Articles";
 import classes from "../../screens/NewsArticle/NewsArticle.module.css";
 import InnerSearchBox from "../common/InnerSearchBox/InnerSearchBox";
 import { AllNewsContext } from "../../context/AllNewsProvider";
-import Http from "../../core/services/interceptor/interceptor";
 
 const NewsArticlePageContent = () => {
   const AllNews = useContext(AllNewsContext);
