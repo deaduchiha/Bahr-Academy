@@ -87,7 +87,7 @@ const Payments = (props) => {
             <Link to="/courses"> مشاهده دوره ها</Link>
           </div>
           <div>
-            <img src={vec} />
+            <img src={vec} alt="vec" />
           </div>
         </div>
       )}

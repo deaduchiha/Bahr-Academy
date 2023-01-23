@@ -12,7 +12,6 @@ import { CartContext } from "../../context/CartContextProvider";
 
 // Icon
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
-import RemoveShoppingCartOutlinedIcon from "@mui/icons-material/RemoveShoppingCartOutlined";
 import RemoveShoppingCartRoundedIcon from "@mui/icons-material/RemoveShoppingCartRounded";
 
 const TableTbodyPanel = ({
@@ -20,7 +19,7 @@ const TableTbodyPanel = ({
   cPic,
   cName,
   cStart,
-  cEnd,
+
   cPrice,
   cCap,
   cAuthor,

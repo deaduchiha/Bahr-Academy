@@ -20,7 +20,7 @@ export const DatePickerField = ({ ...props }) => {
 
   const { setFieldValue } = useFormikContext();
   const [field] = useField(props);
-  const { text, styles, value } = props;
+  const { value } = props;
 
   return (
     <div className={style.finalInput}>
@@ -61,8 +61,6 @@ export default function DateInput() {
       ...object,
     });
   };
-
-  const [value, setValue] = useState(new Date());
 
   return (
     <div>

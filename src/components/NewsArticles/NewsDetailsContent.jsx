@@ -17,14 +17,14 @@ import Http from "../../core/services/interceptor/interceptor";
 
 const apiEndpoint2 = "https://invalid-js.herokuapp.com/api/comments/";
 
-const NewsDetailsContent = ({}) => {
+const NewsDetailsContent = () => {
   const AllNews = useContext(AllNewsContext);
   const navigate = useNavigate();
 
   const { id } = useParams();
   const [article, setArticle] = useState([]);
-  const [course, setCourse] = useState([]);
-  const [course2, setCourse2] = useState({
+  const [course] = useState([]);
+  const [course2] = useState({
     teacher: { fullName: "" },
     lesson: { description: "" },
     image: "",
@@ -62,7 +62,7 @@ const NewsDetailsContent = ({}) => {
       );
     }
     commentGetter();
-  }, []);
+  }, [id]);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -84,7 +84,7 @@ const NewsDetailsContent = ({}) => {
     dataGetter();
 
     AllNews.NewsIdSetter(id);
-  }, [id]);
+  }, [AllNews, id]);
   useEffect(() => {
     setTimeout(function loading() {
       setIsLoading(false);

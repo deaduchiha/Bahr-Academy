@@ -14,7 +14,6 @@ import NewLoader from "../../../assets/images/CourseDetails/newLoader.gif";
 import TableTheadPanel from "../../common/TableTheadPanel";
 import TableTbodyPanel from "../../common/TableTbodyPanel";
 
-const apiEndpoint2 = "http://localhost:8001/myCourses";
 const apiEndpoint = "https://invalid-js.herokuapp.com/api/course/getall";
 
 const PanelCoursesList = () => {
@@ -44,8 +43,6 @@ const PanelCoursesList = () => {
   const handleAddCourse = async (course) => {
     modalCloser(course);
     try {
-      const { data: CourseListNew } = await axios.post(apiEndpoint2, course);
-
       toast.success("دوره مورد نظر با موفقیت به سبد شما اضافه شد", {});
     } catch (ex) {
       toast.warning("دوره مورد نظر در سبد شما موجود است", {});

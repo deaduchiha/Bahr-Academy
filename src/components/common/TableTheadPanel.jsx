@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../StudentPanel/PanelCoursesList/PanelCoursesList.module.css";
 
-const TableTheadPanel = ({}) => {
+const TableTheadPanel = () => {
   return (
     <thead className={`${"thead"} ${styles["my-thead"]}`}>
       <tr className={`${styles["my-trr"]}`}>

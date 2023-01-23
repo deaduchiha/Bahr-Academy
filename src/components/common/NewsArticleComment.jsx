@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from "react";
+import React, { useState, useContext } from "react";
 import style from "../../screens/NewsDetails/NewsDetails.module.css";
 import Person from "../../assets/images/StudentPanel/person6.png";
 import Comment from "./Comment";
@@ -42,7 +42,6 @@ const NewsArticleComment = ({ postId, data }) => {
       toast.info("ابتدا وارد حساب کاربری شوید", {});
     } else {
       try {
-        const res = await Http.post(`http://localhost:8006/AllReports`, data);
         toast.success("گزارش شما ثبت شد ", {});
       } catch (ex) {
         toast.warning("مجددا امتحان فرمایید", {});

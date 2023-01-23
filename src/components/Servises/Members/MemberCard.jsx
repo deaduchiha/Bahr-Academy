@@ -10,7 +10,7 @@ const MemberCard = (props) => {
       <div className={`row ${styles.member}`}>
         <div className={`card p-0 ${styles.programmers} `}>
           <div className={`card-image ${styles.progImage}`}>
-            <img src={props.image} alt="Programmer Image" />
+            <img src={props.image} alt="Programmer Imags" />
           </div>
           <div
             className={`card-content d-flex flex-column align-items-center ${styles.progCont}`}

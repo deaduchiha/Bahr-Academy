@@ -107,13 +107,13 @@ const Footer = () => {
               className={`${styles.desc}`}
             >
               <div className={styles.namad}>
-                <img src={Etehadie} />
+                <img src={Etehadie} alt="image1" />
               </div>
               <div className={styles.namad}>
-                <img src={Etemad} />
+                <img src={Etemad} alt="image2" />
               </div>
               <div className={styles.namad}>
-                <img src={NeshanMeli} />
+                <img src={NeshanMeli} alt="image3" />
               </div>
             </div>
           </div>

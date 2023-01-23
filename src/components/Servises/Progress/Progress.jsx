@@ -17,7 +17,7 @@ const Progress = (props) => {
       >
         <Bar bgColor="#da4167" percent="90%" att="HTML 5: 90%" />
         <Bar bgColor="#1c7c54" percent="90%" att="CSS 3: 90%" />
-        <Bar bgColor="#9a6d38" percent="90%" att="javaScript: 90%" />
+        <Bar bgColor="#9a6d38" percent="90%" att="Javascrip: 90%" />
         <Bar bgColor="#8e5572" percent="95%" att="c#: 95%" />
         <Bar bgColor="#f24c00" percent="85%" att="NODE.JS: 75%" />
         <Bar bgColor="#c6232d" percent="85%" att="ASP.NET: 85%" />

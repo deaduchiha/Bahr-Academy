@@ -10,7 +10,6 @@ import { AllNewsContext } from "../../context/AllNewsProvider";
 const NewsArticlePageContent = () => {
   const AllNews = useContext(AllNewsContext);
   const [inValue, setInValue] = useState("");
-  const [selectedSort, setSelectedSort] = useState("");
   const [news, setNews] = useState([]);
   const [article, setArticle] = useState([]);
   const [newsCurrentPage, setNewsCurrentPage] = useState(1);
@@ -18,7 +17,7 @@ const NewsArticlePageContent = () => {
   const [articleCurrentPage, setArticleCurrentPage] = useState(1);
   const [articlePageSize, setArticlePageSize] = useState(8);
   const [isLoading, setIsLoading] = useState(true);
-  const [sortItems, setSortItems] = useState([
+  const [sortItems] = useState([
     { name: "همه عناوین", id: 1 },
     { name: "جدیدترین ها", id: 2 },
     { name: "پر بازدیدترین ها", id: 3 },
@@ -38,10 +37,6 @@ const NewsArticlePageContent = () => {
     borderBottom: "3px solid #004458",
     color: "#004458",
     fontSize: "28px",
-  };
-
-  const handleSortSelect = (name) => {
-    setSelectedSort(name);
   };
 
   const handleNewsPageChnager = (event, value) => {

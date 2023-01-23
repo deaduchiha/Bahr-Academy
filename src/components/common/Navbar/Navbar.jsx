@@ -60,16 +60,16 @@ const Navbar = () => {
     switch (page) {
       case "درباره ما":
         return "/aboutUs";
-        break;
+
       case "خدمات":
         return "/services";
-        break;
+
       case "اخبار":
         return "/news/";
-        break;
+
       case "دوره ها":
         return "/courses";
-        break;
+
       default:
         break;
     }
@@ -79,10 +79,10 @@ const Navbar = () => {
     switch (page) {
       case "ورود":
         return "/login";
-        break;
+
       case "ثبت نام":
         return "/register";
-        break;
+
       default:
         break;
     }

@@ -23,7 +23,7 @@ const PanelDashbord = () => {
       setMyCourses(data.data.result.courses);
     }
     dataGetter2();
-  }, []);
+  }, [CurrentUser._id]);
 
   useEffect(() => {
     async function dataGetter() {

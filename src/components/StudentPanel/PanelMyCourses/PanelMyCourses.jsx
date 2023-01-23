@@ -34,7 +34,7 @@ const PanelMyCourses = () => {
       //console.log(data.data.result.courses[0].startDate.toISOString());
       setIsLoading(false);
     }, 1500);
-  }, []);
+  }, [CurrentUser._id]);
 
   const handleDeleteCourse = async (course) => {
     const originalMyCourses = myCourses;

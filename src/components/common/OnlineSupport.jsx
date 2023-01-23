@@ -11,16 +11,9 @@ import AdminRep from "./OnlineSupportComps/AdminRep";
 const OnlineSupport = () => {
   const [allComment, setAllComment] = useState([]);
   const [des, setDes] = useState("");
-  const [type] = useState("کاربر");
-  const [name] = useState("بازدید کننده");
-  const [email] = useState("adnanREzaii@gmail.com");
-  const [image] = useState("");
-  const [ip] = useState("");
-  const [datee, setDatee] = useState();
-  const [repFlag] = useState("false");
+
   const [chatFlag, setChatFlag] = useState(0);
   const [notFlag, setNotFlag] = useState(true);
-  const [flagg] = useState("user");
 
   const [adminFlag, setAdminFlag] = useState(true);
 
@@ -28,7 +21,6 @@ const OnlineSupport = () => {
     async function dataGetter() {
       const { data: cmList } = await axios.get("http://localhost:8009/Chat");
       setAllComment(cmList);
-      setDatee(new Date().toISOString());
     }
     dataGetter();
   }, []);
@@ -36,28 +28,10 @@ const OnlineSupport = () => {
   async function dataGetter() {
     const { data: cmList } = await axios.get("http://localhost:8009/Chat");
     setAllComment(cmList);
-    setDatee(new Date().toISOString());
   }
 
   const handleAddComment = async (e) => {
     e.preventDefault();
-
-    const userComment = {
-      name,
-      email,
-      type,
-      des,
-      image,
-      ip,
-      datee,
-      repFlag,
-      flagg,
-    };
-
-    const { data: commentListNew } = await axios.post(
-      "http://localhost:8009/Chat",
-      userComment
-    );
 
     setDes("");
 

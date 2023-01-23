@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import style from "../../screens/Courses/Courses.module.css";
 import axios from "axios";
-const CourseLike = ({ likeImg, LikeNum, handleLike, id }) => {
+const CourseLike = ({ likeImg, handleLike, id }) => {
   const [like, setLike] = useState({ like: 0, dislike: 0 });
 
   useEffect(() => {
@@ -12,7 +12,7 @@ const CourseLike = ({ likeImg, LikeNum, handleLike, id }) => {
       setLike(data.data.result);
     }
     dataGetter2();
-  }, []);
+  }, [id]);
 
   return (
     <div className={style["like"]}>

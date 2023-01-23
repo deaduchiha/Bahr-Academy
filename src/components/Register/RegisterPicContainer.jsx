@@ -17,7 +17,7 @@ const RegisterPicContainer = () => {
       <div>
         <div className={styles.icons}>
           <h2>آکادمی آموزشی بامبو</h2>
-          <img className={styles.logImg} src={bamboo} />
+          <img className={styles.logImg} src={bamboo} alt="bambo" />
         </div>
         <ul className={styles.list}>
           <li style={{ backgroundImage: `url(${insta})` }}></li>
@@ -29,7 +29,7 @@ const RegisterPicContainer = () => {
           <li style={{ backgroundImage: `url(${yout})` }}></li>
         </ul>
         <Link className={styles.homeLink} to="/">
-          <img className={styles.home} src={home} />
+          <img className={styles.home} src={home} alt="home" />
         </Link>
       </div>
     </div>
